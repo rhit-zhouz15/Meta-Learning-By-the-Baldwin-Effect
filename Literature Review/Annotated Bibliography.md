@@ -1,2 +1,5 @@
-2. Myths and Legends of the Baldwin Effect
-3. Cooperation as well as learning: commentary on "How learning can guide evolution"
+2. Myths and Legends of the Baldwin Effect (https://arxiv.org/pdf/cs/0212036)
+3. Cooperation as well as learning: commentary on "How learning can guide evolution" (https://arxiv.org/pdf/2409.15609)
+4. Meta-Learning by the Baldwin Effect (https://arxiv.org/pdf/1806.07917)
+5. Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks (https://arxiv.org/pdf/1703.03400)
+6. Evolutionary Optimization of Physics-Informed Neural Networks: Advancing Generalizability by the Baldwin Effect (https://arxiv.org/pdf/2312.03243)
