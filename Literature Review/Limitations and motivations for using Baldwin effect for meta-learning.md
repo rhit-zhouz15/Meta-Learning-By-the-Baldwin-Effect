@@ -1,0 +1,2 @@
+- Traditional RL and supervised learning have great performance on a variety of tasks but they have to be trained for that specific task and performs poorly when there is a lack of data
+- 
