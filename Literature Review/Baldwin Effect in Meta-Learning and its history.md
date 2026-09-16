@@ -1,5 +1,22 @@
 ## Original Model-Agnostic Meta-Learning (MAML) inspiration
-- Uses gradient descent to learn initial parameter values of a neural network to make learning new parameter values easier and faster for different tasks
+- Uses gradient descent to learn initial parameter values of a neural network to make learning new parameter values easier and faster for different tasks (Makes it easier to fine-tune)
+- No constraint on model architecture or change number of learned parameters
+- Entire tasks as training examples
+- Previous approach is to train a meta-learner that learns to update the parameters of the learner's model. MAML uses gradient rather than a learned update, so no learner architecture or additional parameters
+- All the meta-learning problems tested requires adaptation to new tasks at test-time
+- MAML learns periodic nature of sine-wave even when there are no data points and doesn't overfit on a single task even with many gradient steps
+### Tasks
+- Regression, image classification, and reinforcement learning
+- Authors note that second derivative is a large expense on MAML and omitting it has almost the same performance, surprisingly (equating 33% speed-up)
+- Pre-trained model is trained on the entirety of the training task distribution with supervised training. Then, it does fine-tuning with a few training steps on the new task's support set before testing. All data points thrown into one big pool
+- MAML is trained on a distribution of similar tasks by drawing a batch of tasks and then sampling data points from those tasks. Loss is computed on those points and stored as temporary and then used to get the loss for the next task and the temporary gradient gets update by combining or averaging and then at the end of all the tasks there's one gradient computation done by using summed loss with respect to the original weights
+#### Regression
+- Amplitude and phase varied between tasks
+- Amplitude between [0.1, 5.0]
+- Phase between [0, Pi]
+- Data points are sampled uniformly from [-5.0, 5.0] during training and testing
+- Loss is MSE, model is 2 layers of size 40 with ReLU activations
+- Step size of 0.01 and 10 examples, Adam meta-optimizer
 ## Meta-Learning by the Baldwin Effect
 - Shows that Baldwin effect is competitive with MAML without having to be differentiable or having direct access to gradients
 - Initial weights and hyperparameters are inherited but learned weights are forgotten from one generation to the next
