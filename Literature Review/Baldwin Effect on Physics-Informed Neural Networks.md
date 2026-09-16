@@ -1,0 +1,8 @@
+- Similar to meta-learning by the baldwin effect paper but on PINNs
+- Evolutionary outer loop
+- Inner close-form lifetime learning loop using gradients
+- Higher accuracy and much lower computational time than other gradient-based meta-learning PINNs
+- Hidden-layer weights that are evolved are frozen
+- Final linear layer weights are adapted for specific tasks
+- Six-hidden layers with mixed activation functions
+- Evolutionary search uses covariance matrix adaptation evolution strategy or NES
