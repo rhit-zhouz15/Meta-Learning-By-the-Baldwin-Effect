@@ -1,0 +1,5 @@
+- Instead of using any sort of error or reward signal, the authors explore meta-learning through a more neuroscience lens
+- They purely use local hebbian learning rules to update neuron weights in a neural network, basically, they only use things like nearby activations, timings, rate, etc.
+- Evolution is used in a population of different local hebbian learning rules to pick which learning rule or combination of learning rules is the most optimal in a changing environment
+- They found that a combination of all 4 components of ABCD in Hebbian model worked the best where A is correlation, B is pre-synaptic, C is post-synaptic, and D is bias
+- They used evolutionary strategy (ES) for evolutions and the fitness is based on cumulative episodic task rewards and creates offspring based on rules who achieved better rewards, though the agent themselves don't have access to that
