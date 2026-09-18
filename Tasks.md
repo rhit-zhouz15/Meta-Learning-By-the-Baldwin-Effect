@@ -8,3 +8,7 @@ Fall term goal: Intro and start of technical section
 Ideas
 - Adversarial evolution of the function and the model against one another
 - Find question first and then how to go about answering it
+- Testing hebbian learning as inner-loop
+- More varied sinusoid regression (maybe change frequency and also out of distribution tests)
+- What happens if I use a distribution of a bunch of different graphs, does no learning happen?
+- Test MAML against Baldwin Effect for sinusoid regression

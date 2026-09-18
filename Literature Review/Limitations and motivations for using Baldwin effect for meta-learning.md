@@ -1,2 +1,4 @@
 - Traditional RL and supervised learning have great performance on a variety of tasks but they have to be trained for that specific task and performs poorly when there is a lack of data
-- 
+- MAML needs a differentiable learning procedure
+- Second-order gradients limit the number of inner steps
+- Evolution allows non-differentiable and multi-modal fitness
