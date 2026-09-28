@@ -81,3 +81,6 @@
 - This mean Baldwin is better for a task that requires more drastic changes while Lamarckian is better at fine-tuning but not for bigger changes in task requirements
 - Baldwin better for quickly changing and broad scenarios
 - Lamarckian better for narrow task distribution
+### Mask
+- A vector of the same length as the genome that is evolved to determine which parts of the neural network should be trainable
+- Did not show to help with the performance of the network
