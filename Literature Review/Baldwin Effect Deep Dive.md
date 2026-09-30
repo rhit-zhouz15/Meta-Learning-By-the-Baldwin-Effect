@@ -43,3 +43,9 @@ Cons
 - Learning requires the right kind of experience, not always available so it is less reliable [2]
 - Vulnerable while learning that trait [2]
 - Evolution is better for maximizing fitness of a population [2]
+
+Clearing up confusion as to what Baldwin Effect's final result is
+- Baldwinian evolution reaches the same end point as Lamarckian evolution, the organism hardwires a good learned behavior into its genetics [12]
+- Lamarckian says this is done by somehow reverse-engineering a learned experience from the brain and writes it into the offspring's DNA (not biologically accurate) [12]
+- Baldwinian says that first learning is selected for because it keeps the population alive by having partial rewards by phasing out bad genes instead of just randomly mutating hoping to get the good genome (which wouldn't even be kept by its offspring after crossover) [12]
+- Then, eventually natural selection fixes the learned gene because it realizes that learning has a cost and fixing that behavior leads to better results faster and without learning mistakes over those individuals that still have to learn it [12]
